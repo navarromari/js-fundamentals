@@ -1,0 +1,16 @@
+- First class functions are functions that behave like a variable. 
+- In javascript that means that those functions can be assigned to other variables, passed as an argument or returned by another function.
+
+function longerGreet (name, greet){
+    return `${greet(name)}! How are you?`;
+}
+
+- When you declare a function you're only defining what that function should do when it is called and what it requires to work (parameters). 
+
+function greet (name){
+    return `Hi, ${name}`;
+}
+
+When you are calling a function you're asking it to do what you programmed it to do, and you are supposed to give it (as an argument) what it requires to function. 
+
+greet('Mariana');
